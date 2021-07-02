@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 980px;
+    margin: 50px auto;
+}
+#wrapper .lang a{
+    padding: 5px;
+    font-size: 15px;
+    color:black;
+}
+#wrapper .lang a:hover{
+    color: tomato;
+    transition: 0.2s;
+}
+/* end lang */
+
+#wrapper .heading h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+#wrapper .heading p{
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+}
+#wrapper .heading{
+    padding-bottom: 15px;
+    border-bottom: 5px solid lightgray;
+    border-radius: 0px 0px 1000px 10px;
+}
+/* end .heading */
+
+
+#wrapper .p_wrapper{
+    overflow: hidden;
+    padding:30px 0px;
+}
+#wrapper .p_wrapper .left_side{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+#wrapper .p_wrapper .paragraph_section{
+    padding: 10px 20px 10px 0px;
+}
+#wrapper .p_wrapper .paragraph_section h3{
+    font-weight:500;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+#wrapper .p_wrapper .paragraph_section p{
+    text-align: justify;
+    font-weight: 100;
+    color: rgb(34, 32, 32);
+}
+
+#wrapper .p_wrapper .right_side{
+    width: 50%; 
+    float: left;
+    overflow: hidden;
+}
+#wrapper .p_wrapper .right_side .select_form input[type=number]{
+    width: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+#wrapper .p_wrapper .right_side .select_form .form_left{
+   display: inline;
+   float: left;
+   width: 20%;
+   text-align: center;
+   padding-top: 40px;
+}
+#wrapper .p_wrapper .right_side .select_form ul{
+    display: inline;
+    float: left;
+    width: 30%;
+ }
+ #wrapper .p_wrapper .right_side .select_form ul li{
+     list-style-type: none;
+     padding: 3px;
+ }
+ #wrapper .p_wrapper .right_side .select_form ul li input:hover{
+    cursor:pointer;
+}
+ #wrapper .p_wrapper .right_side .select_form ul li label:hover{
+     cursor:pointer;
+ }
+ #wrapper .p_wrapper .right_side .select_form .form_right{
+    display: inline;
+    float: left;
+    width: 45%;
+    padding-top: 20px;
+    margin-right: 5%;
+ }
+ #wrapper .p_wrapper .right_side .select_form .form_right input[type=checkbox]{
+     display: inline;
+ }
+ #wrapper .p_wrapper .right_side .select_form .form_right label{
+ }
+
+ #wrapper .p_wrapper .right_side .select_form .form_right button{
+     display: block;
+     margin-top: 10px;
+     text-align: center;
+     padding: 3px;
+ }
+ #wrapper .p_wrapper .right_side .select_form .form_right button:hover{
+     cursor: pointer;
+ }
